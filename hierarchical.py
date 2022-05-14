@@ -87,14 +87,3 @@ labels = model.labels_
 users_feb['hierarchical']=labels
 #%% guardem dades etiquetades
 users_feb.to_csv('data/users_2022_2_labeled.csv', index=False)
-
-# %%
-# fig, ax = plt.subplots(1, 2, figsize=(11, 5))
-# lin = linkage(pdist(X_scaled), 'ward')
-# dendrogram(lin, ax=ax[0])
-# ax[0].set_title('Dataset {} con linkage "{}"'.format(X, 'ward'))
-# cluster_idx = fcluster(lin, t=.2, criterion='distance')
-# ax[1].scatter(X_scaled.iloc[:, 0], X_scaled.iloc[:, 1], c=cluster_idx, alpha=.3, cmap='jet')
-# ax[1].axis('equal')
-# plt.tight_layout()
-# plt.show()
