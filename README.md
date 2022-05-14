@@ -31,7 +31,11 @@ parking users segmentation from the parking system operational log
    Input file: users_2022_2_labeled.csv
    Output file: users_2022_2_labeled.csv
    
-7. 
+7. som.py
+   Clustering with minisom from MiniSom package
+   Input file: users_2022_2_labeled.csv
+   Output files: users_2022_2_labeled.csv + centers_som7.csv
+
 
 
 Also uploaded DBSCAN and Gaussian Mixture models code, although they don't fit the data
