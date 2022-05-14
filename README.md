@@ -6,4 +6,8 @@ parking users segmentation from the parking system operational log
   Input file: history_origin.csv
   Output file: history_2022_02_preprocessed_.csv
   
-3. 
+2. Exploratory_history_22_02.py
+  Cleans the data and creates Users dataset
+  Input file: history_2022_02_preprocessed_.csv
+  Output files: users_2022_02.csv  +  history_2022_02_to_powerbi.csv
+  
