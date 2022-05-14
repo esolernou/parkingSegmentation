@@ -8,7 +8,7 @@ from sklearn.cluster import DBSCAN
 import seaborn as sns
 
 # %% càrrega de dades
-users_feb: pd.DataFrame = pd.read_csv('data/users_2022_2_labeled.csv')
+users_feb: pd.DataFrame = pd.read_csv('../data/users_2022_2_labeled.csv')
 users_feb.info()
 X = users_feb.iloc[:, :-1]
 scaler = StandardScaler()
