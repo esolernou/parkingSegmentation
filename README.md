@@ -32,3 +32,6 @@ parking users segmentation from the parking system operational log
    Output file: users_2022_2_labeled.csv
    
 7. 
+
+
+Also uploaded DBSCAN and Gaussian Mixture models code, although they don't fit the data
