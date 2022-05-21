@@ -36,6 +36,9 @@ parking users segmentation from the parking system operational log
    Input file: users_2022_2_labeled.csv
    Output files: users_2022_2_labeled.csv + centers_som7.csv
 
-
+8. fraud.py
+   Anomaly detection using SOM Maps
+   Input file: users_2022_2_labeled.csv
+   Output file: users_fraud_20.csv
 
 Also uploaded DBSCAN and Gaussian Mixture models code, although they don't fit the data
